@@ -1,8 +1,8 @@
 class Feroxbuster < Formula
   desc "Fast, simple, recursive content discovery tool written in Rust. 🦀"
   homepage "https://github.com/epi052/feroxbuster"
-  url "https://github.com/TGotwig/feroxbuster/releases/download/v1.0.1/feroxbuster-linux.tar.gz"
-  sha256 "8acc5cb94d6e6271345192a9d3033114783df9c418dc0a1a524f1e2cd76f9bf9"
+  url "https://github.com/TGotwig/feroxbuster/releases/download/v1.0.3/x86_64-linux-feroxbuster.tar.gz"
+  sha256 "7d75d16e45058ec0a0aed6da145204389b98ea515b8db95d9e4d099cfc9f9ba4"
 
   def install
     bin.install "feroxbuster"
