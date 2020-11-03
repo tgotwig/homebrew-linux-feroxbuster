@@ -8,7 +8,7 @@ class Feroxbuster < Formula
 
   resource 'ferox-config' do
     url 'https://raw.githubusercontent.com/epi052/feroxbuster/master/ferox-config.toml.example'
-    sha256 '70ace4e70c7f532cc4f7e7958106d035c62bd9d12a6a91de433b815f607911ba'
+    sha256 'd53171328e75472612470e337ec374376ede56631d12129aecb1cd29fefb69b8'
   end
 
   def install
