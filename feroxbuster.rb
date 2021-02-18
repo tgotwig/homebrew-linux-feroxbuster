@@ -3,12 +3,12 @@
 class Feroxbuster < Formula
   desc 'Fast, simple, recursive content discovery tool written in Rust. 🦀'
   homepage 'https://github.com/epi052/feroxbuster'
-  url 'https://github.com/epi052/feroxbuster/releases/download/v2.1.0/x86_64-linux-feroxbuster.tar.gz'
-  sha256 'd61e5f0c69d2a697505f346ae29ee89ac86a7220233755b1706e1d018c98f28b'
+  url 'https://github.com/epi052/feroxbuster/releases/download/v2.2.0/x86_64-linux-feroxbuster.tar.gz'
+  sha256 'a203aa74dbfc0791ae4882a629b71a28cb3f2ba9a977f9fe6dbbf07768bf3485'
 
   resource 'ferox-config' do
     url 'https://raw.githubusercontent.com/epi052/feroxbuster/master/ferox-config.toml.example'
-    sha256 'e452bff2a8eb0102a390bf4cc09d338bc466a37639e2993d9ccda70dc3fec392'
+    sha256 'ddfbc512b89865cb798ed4a11eb99c61ac3e7af1ea1db9020e27ca645ccc9a0b'
   end
 
   def install
